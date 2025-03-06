@@ -4,7 +4,7 @@ import MessageBubble from './components/MessageBubble';
 import InputBox from './components/InputBox';
 import Notification from './components/Notification';
 
-const DEFAULT_APIKEY = "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";
+const DEFAULT_APIKEY = "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";
 
 const App: React.FC = () => {
   const [apiKey, setApiKey] = useState<string>(DEFAULT_APIKEY);
